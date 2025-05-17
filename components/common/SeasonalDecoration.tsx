@@ -5,8 +5,8 @@ import Animated, {
   useSharedValue, 
   withRepeat, 
   withTiming, 
-  Easing,
-  withDelay
+  withDelay,
+  Easing 
 } from 'react-native-reanimated';
 import { useTheme } from '@/context/ThemeContext';
 
@@ -133,9 +133,6 @@ export default function SeasonalDecoration() {
       opacity: 0.15,
     },
   });
-
-  // Determine which seasonal decoration to show based on current month
-  // For now, let's show the default one
   
   return (
     <View style={styles.container}>
