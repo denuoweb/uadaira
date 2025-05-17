@@ -24,7 +24,7 @@ export default function SeasonalDecoration() {
     opacity1.value = withDelay(
       100, 
       withRepeat(
-        withTiming(0.8, { duration: 5000, easing: Easing.inOut(Easing.sine) }), 
+        withTiming(0.8, { duration: 5000, easing: Easing.inOut(Easing.sin) }), 
         -1, 
         true
       )
@@ -32,7 +32,7 @@ export default function SeasonalDecoration() {
     opacity2.value = withDelay(
       300, 
       withRepeat(
-        withTiming(0.6, { duration: 4000, easing: Easing.inOut(Easing.sine) }), 
+        withTiming(0.6, { duration: 4000, easing: Easing.inOut(Easing.sin) }), 
         -1, 
         true
       )
@@ -40,7 +40,7 @@ export default function SeasonalDecoration() {
     opacity3.value = withDelay(
       500, 
       withRepeat(
-        withTiming(0.7, { duration: 6000, easing: Easing.inOut(Easing.sine) }), 
+        withTiming(0.7, { duration: 6000, easing: Easing.inOut(Easing.sin) }), 
         -1, 
         true
       )
@@ -49,7 +49,7 @@ export default function SeasonalDecoration() {
     translateY1.value = withDelay(
       100, 
       withRepeat(
-        withTiming(-5, { duration: 5000, easing: Easing.inOut(Easing.sine) }), 
+        withTiming(-5, { duration: 5000, easing: Easing.inOut(Easing.sin) }), 
         -1, 
         true
       )
@@ -57,7 +57,7 @@ export default function SeasonalDecoration() {
     translateY2.value = withDelay(
       300, 
       withRepeat(
-        withTiming(-8, { duration: 4000, easing: Easing.inOut(Easing.sine) }), 
+        withTiming(-8, { duration: 4000, easing: Easing.inOut(Easing.sin) }), 
         -1, 
         true
       )
@@ -65,7 +65,7 @@ export default function SeasonalDecoration() {
     translateY3.value = withDelay(
       500, 
       withRepeat(
-        withTiming(-6, { duration: 6000, easing: Easing.inOut(Easing.sine) }), 
+        withTiming(-6, { duration: 6000, easing: Easing.inOut(Easing.sin) }), 
         -1, 
         true
       )
