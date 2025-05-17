@@ -1,0 +1,72 @@
+export const mockLocationData = [
+  {
+    id: 'loc1',
+    name: '高森観光案内所',
+    nameEn: 'Takamori Tourist Information Center',
+    category: 'attractions',
+    description: '高森町の観光情報を提供する案内所です。地域のマップやイベント情報、おすすめスポットの案内を行っています。',
+    descriptionEn: 'A tourist information center providing information about Takamori. Get local maps, event information, and recommendations for sightseeing spots.',
+    distance: 0.3,
+    image: 'https://images.pexels.com/photos/3769138/pexels-photo-3769138.jpeg',
+    address: '長野県下伊那郡高森町下市田2183-1',
+    openHours: '9:00 - 17:00 (月-金)',
+    phone: '0265-35-8066',
+    website: 'https://www.town.takamori.nagano.jp/tourism/'
+  },
+  {
+    id: 'loc2',
+    name: '月見茶屋',
+    nameEn: 'Tsukimi Chaya',
+    category: 'dining',
+    description: '伝統的な日本茶と和菓子を提供する茶屋。静かな庭園を眺めながら、ゆっくりとした時間を過ごせます。',
+    descriptionEn: 'A traditional teahouse serving Japanese tea and sweets. Enjoy a peaceful time while viewing the quiet garden.',
+    distance: 0.5,
+    image: 'https://images.pexels.com/photos/5409751/pexels-photo-5409751.jpeg',
+    address: '長野県下伊那郡高森町山吹4513',
+    openHours: '10:00 - 17:00 (水-月)',
+    phone: '0265-35-2468',
+    website: null
+  },
+  {
+    id: 'loc3',
+    name: '高森山ハイキングコース',
+    nameEn: 'Mt. Takamori Hiking Trail',
+    category: 'nature',
+    description: '初心者から上級者まで楽しめる山歩きコース。山頂からは南アルプスと伊那谷の絶景が広がります。',
+    descriptionEn: 'A hiking trail suitable for both beginners and experienced hikers. Enjoy spectacular views of the Southern Alps and Ina Valley from the summit.',
+    distance: 1.2,
+    image: 'https://images.pexels.com/photos/11493106/pexels-photo-11493106.jpeg',
+    address: '長野県下伊那郡高森町山吹高森山',
+    openHours: '終日利用可能',
+    phone: null,
+    website: null
+  },
+  {
+    id: 'loc4',
+    name: '高森古民家ミュージアム',
+    nameEn: 'Takamori Folk House Museum',
+    category: 'attractions',
+    description: '江戸時代から明治時代にかけての民家を保存・展示している博物館。当時の生活様式や建築技術を学べます。',
+    descriptionEn: 'A museum preserving and exhibiting folk houses from the Edo to Meiji periods. Learn about historical lifestyle and architecture.',
+    distance: 0.8,
+    image: 'https://images.pexels.com/photos/5244261/pexels-photo-5244261.jpeg',
+    address: '長野県下伊那郡高森町下市田3521',
+    openHours: '9:00 - 16:30 (火-日)',
+    phone: '0265-35-7890',
+    website: null
+  },
+  {
+    id: 'loc5',
+    name: '蔵カフェ いろは',
+    nameEn: 'Kura Cafe Iroha',
+    category: 'dining',
+    description: '古い蔵を改装したカフェ。地元の食材を使用した創作料理と自家製デザートが人気です。',
+    descriptionEn: 'A cafe renovated from an old storehouse. Popular for its creative dishes using local ingredients and homemade desserts.',
+    distance: 0.6,
+    image: 'https://images.pexels.com/photos/5835353/pexels-photo-5835353.jpeg',
+    address: '長野県下伊那郡高森町下市田1234',
+    openHours: '11:00 - 18:00 (木-火)',
+    phone: '0265-35-3456',
+    website: null
+  }
+];
